@@ -1,5 +1,5 @@
 use restaurante;
-Calcule a quantidade de pedidos
+--Calcule a quantidade de pedidos
   select count(*) as 'quantidade de pedidos' from pedidos;
 --Calcule a quantidade de clientes únicos que realizaram pedidos
   select count(distinct id_cliente) as 'quantidade de clientes' from pedidos;
